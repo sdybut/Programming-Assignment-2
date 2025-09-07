@@ -38,7 +38,7 @@ This function works by first creating a random 5x5 array using NumPy, then norma
 
   **Conclusion**
 
-To conclude, I created a NumPy program that generates a random 5x5 array and normalizes it using the formula (X - mean) / std. The mean was obtained using .mean() and the standard deviation using .std(). Finally, the normalized array was saved into a .npy file using np.save(). This technique is useful in data preprocessing, ensuring values are scaled consistently.
+To conclude, this NumPy program generates a random 5x5 array and normalizes it using the formula (X - mean) / std. The mean was obtained using .mean() and the standard deviation using .std(). Finally, the normalized array was saved into a _.npy_ file using np.save(). This technique is useful in data preprocessing, ensuring values are scaled consistently.
 
 
 ## 2. Divisible by 3 Problem 
@@ -80,4 +80,4 @@ This function works by creating a 10x10 NumPy array of the squares of the first 
 
   **Conclusion**
   
-In conclusion, I created a 10x10 NumPy matrix consisting of the squares of numbers 1 to 100 using np.arange(1, 101) ** 2 and reshaping it into a 10x10 array. I then extracted the numbers divisible by 3 using array filtering (A % 3 == 0). Finally, the results were saved to a .npy file with np.save(). This demonstrates how NumPy can be used to generate structured arrays and apply conditional filtering.
+In conclusion, this NumPy program matrix consist of the squares of numbers 1 to 100 using np.arange(1, 101) ** 2 and reshaping it into a 10x10 array. I then got the numbers divisible by 3 using array filtering (A % 3 == 0). Finally, the results were saved to a _.npy_ file with np.save(). This demonstrates how NumPy can be used to generate structured arrays and apply conditional filtering.
